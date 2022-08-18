@@ -30,7 +30,7 @@
         <!--Second-->
         <scene sceneID="pmn-Yc-8Tr">
             <objects>
-                <viewController id="gho-2c-JAa" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" id="gho-2c-JAa" customClass="SecondViewController" customModule="UIKit_Animations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Srs-ci-fwz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,7 @@
         <!--Third-->
         <scene sceneID="AKg-KD-3RO">
             <objects>
-                <viewController id="V3a-Fo-CfE" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ThirdViewController" id="V3a-Fo-CfE" customClass="ThirdViewController" customModule="UIKit_Animations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SIF-Dt-U6S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,7 +62,7 @@
         <!--First-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIKit_Animations" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstViewController" id="BYZ-38-t0r" customClass="FirstViewController" customModule="UIKit_Animations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
