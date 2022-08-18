@@ -14,9 +14,12 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        addBall(view: view, centerX: view.frame.width / 4, centerY: view.frame.height - view.frame.height * 0.9, color: .systemYellow, hwRatio: 12)
+        yellowBall = addBall(view: view, centerX: view.frame.width / 7, centerY: view.frame.height - view.frame.height * 0.9, color: .systemYellow, hwRatio: 12)
        
     }
     
 
+    @IBAction func runButtonPressed(_ sender: Any) {
+        
+    }
 }
