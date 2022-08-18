@@ -19,8 +19,7 @@ class FirstViewController: UIViewController {
 
     
     @IBAction func bounceButtonPressed(_ sender: Any) {
-        
-    animateBall(view: view, ball: pinkBall)
+    ballBounce(view: view, ball: pinkBall)
     }
     
 }

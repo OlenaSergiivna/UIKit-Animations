@@ -11,7 +11,7 @@
 		CE43F18D28AEB7BC00104F18 /* AddingBallFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43F18C28AEB7BC00104F18 /* AddingBallFunc.swift */; };
 		CE43F18F28AEB8C800104F18 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43F18E28AEB8C800104F18 /* SecondViewController.swift */; };
 		CE43F19228AEB8DD00104F18 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43F19128AEB8DD00104F18 /* ThirdViewController.swift */; };
-		CE43F19428AED64700104F18 /* AnimateBallFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43F19328AED64700104F18 /* AnimateBallFunc.swift */; };
+		CE43F19428AED64700104F18 /* BounceBallFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43F19328AED64700104F18 /* BounceBallFunc.swift */; };
 		CE49EE5228AEB0B500310314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EE5128AEB0B500310314 /* AppDelegate.swift */; };
 		CE49EE5428AEB0B500310314 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EE5328AEB0B500310314 /* SceneDelegate.swift */; };
 		CE49EE5628AEB0B500310314 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EE5528AEB0B500310314 /* FirstViewController.swift */; };
@@ -25,7 +25,7 @@
 		CE43F18C28AEB7BC00104F18 /* AddingBallFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingBallFunc.swift; sourceTree = "<group>"; };
 		CE43F18E28AEB8C800104F18 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CE43F19128AEB8DD00104F18 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		CE43F19328AED64700104F18 /* AnimateBallFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateBallFunc.swift; sourceTree = "<group>"; };
+		CE43F19328AED64700104F18 /* BounceBallFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceBallFunc.swift; sourceTree = "<group>"; };
 		CE49EE4E28AEB0B500310314 /* UIKit Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE49EE5128AEB0B500310314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE49EE5328AEB0B500310314 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			children = (
 				CE43F18A28AEB6FD00104F18 /* BallClass.swift */,
 				CE43F18C28AEB7BC00104F18 /* AddingBallFunc.swift */,
-				CE43F19328AED64700104F18 /* AnimateBallFunc.swift */,
+				CE43F19328AED64700104F18 /* BounceBallFunc.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,7 +183,7 @@
 				CE43F19228AEB8DD00104F18 /* ThirdViewController.swift in Sources */,
 				CE43F18D28AEB7BC00104F18 /* AddingBallFunc.swift in Sources */,
 				CE49EE5228AEB0B500310314 /* AppDelegate.swift in Sources */,
-				CE43F19428AED64700104F18 /* AnimateBallFunc.swift in Sources */,
+				CE43F19428AED64700104F18 /* BounceBallFunc.swift in Sources */,
 				CE49EE5428AEB0B500310314 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
