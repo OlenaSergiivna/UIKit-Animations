@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        addBall(view: view, centerX: view.bounds.width / 2, centerY: view.bounds.height / 2, color: .systemTeal)
     }
 
 

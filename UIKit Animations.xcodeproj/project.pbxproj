@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE43F18B28AEB6FD00104F18 /* BallClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43F18A28AEB6FD00104F18 /* BallClass.swift */; };
+		CE43F18D28AEB7BC00104F18 /* AddingBallFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43F18C28AEB7BC00104F18 /* AddingBallFunc.swift */; };
 		CE49EE5228AEB0B500310314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EE5128AEB0B500310314 /* AppDelegate.swift */; };
 		CE49EE5428AEB0B500310314 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EE5328AEB0B500310314 /* SceneDelegate.swift */; };
 		CE49EE5628AEB0B500310314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EE5528AEB0B500310314 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		CE43F18A28AEB6FD00104F18 /* BallClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallClass.swift; sourceTree = "<group>"; };
+		CE43F18C28AEB7BC00104F18 /* AddingBallFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingBallFunc.swift; sourceTree = "<group>"; };
 		CE49EE4E28AEB0B500310314 /* UIKit Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE49EE5128AEB0B500310314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE49EE5328AEB0B500310314 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				CE43F18A28AEB6FD00104F18 /* BallClass.swift */,
+				CE43F18C28AEB7BC00104F18 /* AddingBallFunc.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				CE49EE5628AEB0B500310314 /* ViewController.swift in Sources */,
 				CE43F18B28AEB6FD00104F18 /* BallClass.swift in Sources */,
+				CE43F18D28AEB7BC00104F18 /* AddingBallFunc.swift in Sources */,
 				CE49EE5228AEB0B500310314 /* AppDelegate.swift in Sources */,
 				CE49EE5428AEB0B500310314 /* SceneDelegate.swift in Sources */,
 			);
