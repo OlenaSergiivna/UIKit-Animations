@@ -14,13 +14,13 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        pinkBall = addBall(view: view, centerX: view.bounds.width / 2, centerY: view.bounds.height / 2, color: .systemPink)
+        pinkBall = addBall(view: view, centerX: view.frame.width / 2, centerY: view.frame.height - view.frame.height / 4, color: .systemPink)
     }
 
     
     @IBAction func bounceButtonPressed(_ sender: Any) {
         
-    animateBall(ball: pinkBall)
+    animateBall(view: view, ball: pinkBall)
     }
     
 }
