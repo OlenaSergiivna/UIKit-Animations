@@ -13,6 +13,7 @@
 		CE49EE5928AEB0B500310314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE49EE5728AEB0B500310314 /* Main.storyboard */; };
 		CE49EE5B28AEB0B900310314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE49EE5A28AEB0B900310314 /* Assets.xcassets */; };
 		CE49EE5E28AEB0B900310314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE49EE5C28AEB0B900310314 /* LaunchScreen.storyboard */; };
+		CEBE480628AEB2B0007A1DFE /* BallClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE480528AEB2B0007A1DFE /* BallClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE49EE5A28AEB0B900310314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE49EE5D28AEB0B900310314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE49EE5F28AEB0B900310314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBE480528AEB2B0007A1DFE /* BallClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BallClass.swift; path = ../../../../../BallClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		CE49EE5028AEB0B500310314 /* UIKit Animations */ = {
 			isa = PBXGroup;
 			children = (
+				CEBE480228AEB25F007A1DFE /* Models */,
+				CEBE480328AEB26B007A1DFE /* Views */,
+				CEBE480428AEB276007A1DFE /* Controllers */,
 				CE49EE5128AEB0B500310314 /* AppDelegate.swift */,
 				CE49EE5328AEB0B500310314 /* SceneDelegate.swift */,
-				CE49EE5528AEB0B500310314 /* ViewController.swift */,
-				CE49EE5728AEB0B500310314 /* Main.storyboard */,
 				CE49EE5A28AEB0B900310314 /* Assets.xcassets */,
 				CE49EE5C28AEB0B900310314 /* LaunchScreen.storyboard */,
 				CE49EE5F28AEB0B900310314 /* Info.plist */,
 			);
 			path = "UIKit Animations";
+			sourceTree = "<group>";
+		};
+		CEBE480228AEB25F007A1DFE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE480528AEB2B0007A1DFE /* BallClass.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEBE480328AEB26B007A1DFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE49EE5728AEB0B500310314 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEBE480428AEB276007A1DFE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE49EE5528AEB0B500310314 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				CE49EE5628AEB0B500310314 /* ViewController.swift in Sources */,
 				CE49EE5228AEB0B500310314 /* AppDelegate.swift in Sources */,
 				CE49EE5428AEB0B500310314 /* SceneDelegate.swift in Sources */,
+				CEBE480628AEB2B0007A1DFE /* BallClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
