@@ -8,15 +8,19 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
+    
+    var pinkBall = Ball()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let pinkBall = addBall(view: view, centerX: view.bounds.width / 2, centerY: view.bounds.height / 2, color: .systemPink)
+        pinkBall = addBall(view: view, centerX: view.bounds.width / 2, centerY: view.bounds.height / 2, color: .systemPink)
     }
 
+    
     @IBAction func bounceButtonPressed(_ sender: Any) {
         
-    
+    animateBall(ball: pinkBall)
     }
     
 }
