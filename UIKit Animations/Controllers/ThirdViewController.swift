@@ -15,5 +15,7 @@ class ThirdViewController: UIViewController {
      
     }
 
-
+    @IBAction func starButtonPressed(_ sender: Any) {
+    }
+    
 }

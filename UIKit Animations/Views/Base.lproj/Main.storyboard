@@ -73,8 +73,30 @@
                     <view key="view" contentMode="scaleToFill" id="SIF-Dt-U6S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OT2-E4-JsE">
+                                <rect key="frame" x="50" y="714" width="314" height="49"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start!" cornerStyle="small">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="25"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="starButtonPressed:" destination="V3a-Fo-CfE" eventType="touchUpInside" id="fue-hZ-TDu"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="cjr-mX-c6W"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cjr-mX-c6W" firstAttribute="bottom" secondItem="OT2-E4-JsE" secondAttribute="bottom" constant="50" id="Fx6-cs-fJF"/>
+                            <constraint firstItem="OT2-E4-JsE" firstAttribute="leading" secondItem="cjr-mX-c6W" secondAttribute="leading" constant="50" id="QFB-fp-rfT"/>
+                            <constraint firstItem="OT2-E4-JsE" firstAttribute="top" secondItem="cjr-mX-c6W" secondAttribute="top" constant="670" id="nSJ-f0-bnO"/>
+                            <constraint firstItem="cjr-mX-c6W" firstAttribute="trailing" secondItem="OT2-E4-JsE" secondAttribute="trailing" constant="50" id="vHp-Zq-fdN"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Third" image="3.square.fill" catalog="system" id="3rd-rh-B3T"/>
                 </viewController>
@@ -130,6 +152,9 @@
         <image name="3.square.fill" catalog="system" width="128" height="114"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
