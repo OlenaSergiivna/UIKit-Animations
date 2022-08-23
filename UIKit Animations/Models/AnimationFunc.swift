@@ -8,8 +8,7 @@
 import Foundation
 import Lottie
 
-func addAnimation(name: String) {
-    let animationView = AnimationView(name: "success")
+func addAnimation(view: UIView, animationName: String) {
+    let animationView = AnimationView(name: animationName)
     animationView.loopMode = .autoReverse
-    
 }
