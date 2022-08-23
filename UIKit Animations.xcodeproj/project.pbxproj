@@ -21,6 +21,8 @@
 		CE49EE5928AEB0B500310314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE49EE5728AEB0B500310314 /* Main.storyboard */; };
 		CE49EE5B28AEB0B900310314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE49EE5A28AEB0B900310314 /* Assets.xcassets */; };
 		CE49EE5E28AEB0B900310314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE49EE5C28AEB0B900310314 /* LaunchScreen.storyboard */; };
+		CEADFAA128B583280024FE10 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = CEADFAA028B583280024FE10 /* success.json */; };
+		CEADFAA328B584CF0024FE10 /* AnimationFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADFAA228B584CF0024FE10 /* AnimationFunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		CE49EE5A28AEB0B900310314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE49EE5D28AEB0B900310314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE49EE5F28AEB0B900310314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEADFAA028B583280024FE10 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		CEADFAA228B584CF0024FE10 /* AnimationFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFunc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		CE49EE5028AEB0B500310314 /* UIKit Animations */ = {
 			isa = PBXGroup;
 			children = (
+				CEADFA9F28B5803C0024FE10 /* Animations */,
 				CE3CBBEF28B519050011A7CF /* Podfile */,
 				CEBE480228AEB25F007A1DFE /* Models */,
 				CEBE480328AEB26B007A1DFE /* Views */,
@@ -107,6 +112,14 @@
 			path = "UIKit Animations";
 			sourceTree = "<group>";
 		};
+		CEADFA9F28B5803C0024FE10 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				CEADFAA028B583280024FE10 /* success.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		CEBE480228AEB25F007A1DFE /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +127,7 @@
 				CE43F18C28AEB7BC00104F18 /* AddingBallFunc.swift */,
 				CE43F19328AED64700104F18 /* BouncingBallFunc.swift */,
 				CE43F19528AEF86C00104F18 /* RuningBallFunc.swift */,
+				CEADFAA228B584CF0024FE10 /* AnimationFunc.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,6 +213,7 @@
 				CE49EE5E28AEB0B900310314 /* LaunchScreen.storyboard in Resources */,
 				CE49EE5B28AEB0B900310314 /* Assets.xcassets in Resources */,
 				CE3CBBF028B519050011A7CF /* Podfile in Resources */,
+				CEADFAA128B583280024FE10 /* success.json in Resources */,
 				CE49EE5928AEB0B500310314 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +271,7 @@
 				CE49EE5628AEB0B500310314 /* FirstViewController.swift in Sources */,
 				CE43F19628AEF86C00104F18 /* RuningBallFunc.swift in Sources */,
 				CE43F18B28AEB6FD00104F18 /* BallClass.swift in Sources */,
+				CEADFAA328B584CF0024FE10 /* AnimationFunc.swift in Sources */,
 				CE43F19228AEB8DD00104F18 /* ThirdViewController.swift in Sources */,
 				CE43F18D28AEB7BC00104F18 /* AddingBallFunc.swift in Sources */,
 				CE49EE5228AEB0B500310314 /* AppDelegate.swift in Sources */,
