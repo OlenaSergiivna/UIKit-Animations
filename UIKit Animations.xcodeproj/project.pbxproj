@@ -23,6 +23,7 @@
 		CE49EE5E28AEB0B900310314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE49EE5C28AEB0B900310314 /* LaunchScreen.storyboard */; };
 		CEADFAA128B583280024FE10 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = CEADFAA028B583280024FE10 /* success.json */; };
 		CEADFAA328B584CF0024FE10 /* AnimationFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADFAA228B584CF0024FE10 /* AnimationFunc.swift */; };
+		CEADFAA528B590980024FE10 /* delivery.json in Resources */ = {isa = PBXBuildFile; fileRef = CEADFAA428B590980024FE10 /* delivery.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		CE49EE5F28AEB0B900310314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEADFAA028B583280024FE10 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 		CEADFAA228B584CF0024FE10 /* AnimationFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFunc.swift; sourceTree = "<group>"; };
+		CEADFAA428B590980024FE10 /* delivery.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = delivery.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		CEADFA9F28B5803C0024FE10 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				CEADFAA428B590980024FE10 /* delivery.json */,
 				CEADFAA028B583280024FE10 /* success.json */,
 			);
 			path = Animations;
@@ -212,6 +215,7 @@
 			files = (
 				CE49EE5E28AEB0B900310314 /* LaunchScreen.storyboard in Resources */,
 				CE49EE5B28AEB0B900310314 /* Assets.xcassets in Resources */,
+				CEADFAA528B590980024FE10 /* delivery.json in Resources */,
 				CE3CBBF028B519050011A7CF /* Podfile in Resources */,
 				CEADFAA128B583280024FE10 /* success.json in Resources */,
 				CE49EE5928AEB0B500310314 /* Main.storyboard in Resources */,

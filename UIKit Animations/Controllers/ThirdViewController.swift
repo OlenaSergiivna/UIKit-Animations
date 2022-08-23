@@ -17,8 +17,9 @@ class ThirdViewController: UIViewController {
     }
 
     @IBAction func starButtonPressed(_ sender: Any) {
-        
+        addAnimation(view: view, animationName: <#T##String#>)
         addAnimation(view: view, animationName: "success")
+        
         
     }
     
