@@ -8,13 +8,26 @@
 import Foundation
 import Lottie
 
-func addAnimation(view: UIView, animationName: String) {
+func addAnimation(view: UIView, animationOneName: String, animationTwoName: String) {
     
-    let animationView = AnimationView(name: animationName)
-    animationView.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
-    animationView.loopMode = .playOnce
+    let animationView = AnimationView(name: animationOneName)
+    animationView.frame = CGRect(x: 0, y: 0, width: 400, height: 400)
     animationView.center = CGPoint(x: view.frame.midX, y: view.frame.midY)
-    animationView.play()
-    view.addSubview(animationView)
-   
+    
+    UIView.animate(withDuration: 5, delay: 5) {
+        animationView.loopMode = .repeat(5)
+        animationView.play()
+        view.addSubview(animationView)
+        
+    } completion: { _ in
+        let animationView = AnimationView(name: animationTwoName)
+        animationView.frame = CGRect(x: 0, y: 0, width: 400, height: 400)
+        animationView.loopMode = .playOnce
+        animationView.center = CGPoint(x: view.frame.midX, y: view.frame.midY)
+        animationView.play()
+        view.addSubview(animationView)
+    }
+
+    
+    
 }
