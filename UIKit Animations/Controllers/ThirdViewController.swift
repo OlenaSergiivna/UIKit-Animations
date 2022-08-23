@@ -13,11 +13,12 @@ class ThirdViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-     
+        
     }
 
     @IBAction func starButtonPressed(_ sender: Any) {
         
+        addAnimation(view: view, animationName: "success")
         
     }
     

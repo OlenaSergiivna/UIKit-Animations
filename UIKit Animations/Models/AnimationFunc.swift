@@ -9,6 +9,10 @@ import Foundation
 import Lottie
 
 func addAnimation(view: UIView, animationName: String) {
+    
     let animationView = AnimationView(name: animationName)
-    animationView.loopMode = .autoReverse
+    animationView.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
+    animationView.loopMode = .playOnce
+    animationView.play()
+    view.addSubview(animationView)
 }
