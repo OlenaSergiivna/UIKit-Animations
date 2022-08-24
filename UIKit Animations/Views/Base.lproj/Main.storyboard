@@ -112,7 +112,7 @@ for your package...</string>
                     </view>
                     <tabBarItem key="tabBarItem" title="Third" image="3.square.fill" catalog="system" id="3rd-rh-B3T"/>
                     <connections>
-                        <outlet property="topButton" destination="cM4-fo-Bjo" id="Ixc-MQ-Bqt"/>
+                        <outlet property="topLabel" destination="cM4-fo-Bjo" id="Hqh-sw-h7x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PIr-eF-Ddo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -7,9 +7,11 @@
 
 import Foundation
 import Lottie
+import UIKit
 
-func addAnimation(view: UIView, animationOneName: String, animationTwoName: String) {
+func addAnimation(view: UIView, animationOneName: String, animationTwoName: String, label: UILabel) {
     
+    label.isHidden = false
     
     let animationView = AnimationView(name: animationOneName)
     animationView.frame = CGRect(x: 0, y: 0, width: 400, height: 400)
@@ -19,6 +21,12 @@ func addAnimation(view: UIView, animationOneName: String, animationTwoName: Stri
     
     animationView.play { finished in
         animationView.isHidden = true
+        
+       
+            label.text = "Completed! Your package's number is 78437803."
+
+        
+        
         
         let animationView2 = AnimationView(name: animationTwoName)
         animationView2.frame = CGRect(x: 0, y: 0, width: 400, height: 400)
