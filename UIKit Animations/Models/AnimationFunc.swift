@@ -22,9 +22,8 @@ func addAnimation(view: UIView, animationOneName: String, animationTwoName: Stri
     animationView.play { finished in
         animationView.isHidden = true
         
-       
-            label.text = "Completed! Your package's number is 78437803."
-
+        
+        label.text = "Completed! Your package's \n number is 78437803."
         
         
         

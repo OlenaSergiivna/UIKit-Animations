@@ -88,12 +88,26 @@
                                     <action selector="starButtonPressed:" destination="V3a-Fo-CfE" eventType="touchUpInside" id="fue-hZ-TDu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cM4-fo-Bjo">
-                                <rect key="frame" x="20" y="134" width="374" height="45"/>
-                                <string key="text">Please, wait. We are looking
-for your package...</string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cM4-fo-Bjo">
+                                <rect key="frame" x="20" y="134" width="374" height="80"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Please, wait. We are looking
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="21" name="STHeitiSC-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="8" lineHeightMultiple="1" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="for your package...">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="21" name="STHeitiSC-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -105,7 +119,7 @@ for your package...</string>
                             <constraint firstItem="cM4-fo-Bjo" firstAttribute="top" secondItem="cjr-mX-c6W" secondAttribute="top" constant="90" id="Njv-6S-Ubi"/>
                             <constraint firstItem="OT2-E4-JsE" firstAttribute="leading" secondItem="cjr-mX-c6W" secondAttribute="leading" constant="50" id="QFB-fp-rfT"/>
                             <constraint firstItem="cjr-mX-c6W" firstAttribute="trailing" secondItem="cM4-fo-Bjo" secondAttribute="trailing" constant="20" id="VFc-n9-fgy"/>
-                            <constraint firstItem="OT2-E4-JsE" firstAttribute="top" secondItem="cM4-fo-Bjo" secondAttribute="bottom" constant="535" id="hxp-eo-hTQ"/>
+                            <constraint firstItem="OT2-E4-JsE" firstAttribute="top" secondItem="cM4-fo-Bjo" secondAttribute="bottom" constant="500" id="WNP-zi-1lg"/>
                             <constraint firstItem="OT2-E4-JsE" firstAttribute="top" secondItem="cjr-mX-c6W" secondAttribute="top" constant="670" id="nSJ-f0-bnO"/>
                             <constraint firstItem="cjr-mX-c6W" firstAttribute="trailing" secondItem="OT2-E4-JsE" secondAttribute="trailing" constant="50" id="vHp-Zq-fdN"/>
                         </constraints>
